@@ -4,10 +4,6 @@ A time-series forecasting project that predicts stock closing prices from
 historical market data using two deep learning architectures — a **SimpleRNN**
 baseline and a **stacked LSTM** network — built with TensorFlow/Keras.
 
-> **Resume bullet:**
-> *Built a time-series forecasting model using RNNs and LSTM networks to
-> predict stock prices from historical market data.*
-
 ---
 
 ## 🚀 Features
