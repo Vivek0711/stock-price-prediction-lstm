@@ -98,13 +98,3 @@ After training, check the `outputs/` folder for:
 4. **Modeling** — a stacked LSTM (3 layers + dropout) learns long-range temporal dependencies better than a plain SimpleRNN, which tends to struggle with vanishing gradients over long sequences.
 5. **Evaluation** — predictions are inverse-scaled back to real price values and compared against actual prices using RMSE, MAE, and MAPE.
 
-## ⚠️ Disclaimer
-
-This project is for educational purposes only. Stock price prediction from
-historical prices alone is inherently limited — markets are influenced by
-countless external factors (news, macroeconomics, sentiment, etc.) not
-captured in this model. **Do not use this for real financial decisions.**
-
-## 📄 License
-
-MIT License — feel free to use and adapt this project.
